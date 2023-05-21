@@ -1,0 +1,54 @@
+.text-bitmaus {
+    color: rgb(21, 255, 0) !important;
+}
+.btn-bitmaus {
+    background-color: rgb(21, 255, 0);
+}
+.btn-bitmaus:hover {
+    background-color: rgb(9, 114, 0);
+}
+#header img{
+    width: 80px;
+}
+#main .carousel-inner img {
+    max-height: 70vh;
+    filter: grayscale(10%);
+}
+.carousel {
+    position: relative;
+}
+.carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.carousel .overlay .container,
+.carousel .overlay .row {
+    height: 100%;
+}
+#gta-vi {
+    background: var(--bs-body-color);
+    color: white;
+}
+#gta-vi img {
+    max-width: 100%;
+}
+#noticias .card img {
+    max-height: 50vh;
+    filter: grayscale(10%);
+}
+#footer {
+    background: #040c24;
+    margin: 0;
+}
+#footer a {
+    color: white;
+}
+.modal-content {
+    background-color: var(--bs-body-color);
+    color: white;
+}
